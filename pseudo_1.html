@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Pseudo_1</title>
+  <style>
+    a:link{ /* link라는 가상선택자 a태그 */
+      color: black;
+    }
+    a:visited{ /* 방문한 a태그 - 보안으로 인해 속성이 제한적임.*/
+      color: red;
+    }
+    a:hover{ /* 마우스가 위에 올려놓았을 때 */
+      color: yellow;
+    }
+    a:active{ /* active 되어있는 a태그 */
+      color: green;
+    }
+    a:focus{ /* Tab키 누르면 포커싱 */
+      color: white;
+    }
+    input:focus{
+      background: black;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <a href="https://opentutorials.org">방문함</a>
+  <a href="https://a.a">방문안함</a>
+  <input type="text"/>
+</body>
+</html>
