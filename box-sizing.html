@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Box_Sizing</title>
+  <style type="text/css">
+    *{
+      /* content-box : 기본값, border-box : border 경계 크기 동일 */
+      box-sizing: border-box;
+    }
+
+    div{
+      margin: 10px;
+      width: 150px;
+    }
+
+    #small{
+      border: 10px solid black;
+    }
+
+    #large{
+      border: 30px solid black;
+    }
+  </style>
+</head>
+<body>
+  <div id="small">
+    Hello
+  </div>
+  <div id="large">
+    Hello
+  </div>
+</body>
+</html>
