@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Position_1</title>
+  <style type="text/css">
+    #parent, #other{
+      border: 5px solid tomato;
+    }
+
+    #large{
+      height: 10000px;
+      background-color: powderblue;
+    }
+
+    #me{
+      background-color: black;
+      color: white;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div id="other">
+    other
+  </div>
+  <div id="parent">
+    parent
+    <div id="me">
+      me
+    </div>
+  </div>
+  <div id="large">
+    large
+  </div>
+</body>
+</html>
